@@ -1,0 +1,649 @@
+/************** Base style **************/
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #333;
+}
+
+header {
+    background-color: #152225;
+    background: -webkit-linear-gradient(bottom, #646464 0%, #152225 75%);
+    width: 100%;
+    border-bottom: 3px #B5CED4 solid;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 5%;
+}
+
+main {
+    margin: 0 auto;
+    padding: 20% 0% 20% 0%;
+    border-top: 3px solid #040c0e;
+    border-bottom: 3px solid #040c0e;
+    background: url("../images/njHhZgk.jpg");
+    background-repeat: repeat-y;
+    background-position: center top;
+    background-size: 110%;
+}
+
+footer {
+    background-color: #152225;
+    background: -webkit-linear-gradient(top, #646464 0%, #152225 75%);
+    width: 100%;
+    border-top: 3px #B5CED4 solid;
+    color: #fff;
+    text-align: center;
+}
+
+
+/************ JP Movie Database Header Style ************/
+
+div#header div.header_left {
+    height: 100px;
+}
+
+.logo img {
+    height: 100%;
+    width: auto;
+}
+
+h1 {
+    font-size: 1em;
+    text-shadow: -6px -6px 6px #000;
+    text-shadow: 6px 6px 6px #000;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: -7%;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/************ Rogue Section Style ************/
+
+.rogue_one_info {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.movie_headline h2 {
+    font-size: 1.4em;
+}
+
+.plot h2 {
+    font-size: 1.2em;
+}
+
+.movie_year,
+.movie_rating {
+    display: flex;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.movie_year p,
+.movie_rating p {
+    flex: 1;
+}
+
+p.rating,
+p.year {
+    text-align: right;
+}
+
+div.rogue_one_info {
+    box-sizing: border-box;
+    border: 2px #040c0e solid;
+    background-color: #e3b71f;
+    background: -webkit-radial-gradient(top center, #fff 0%, #eac67a 40%, #e3b71f 80%, yellow 100%);
+    padding: 5%;
+}
+
+div.rogue_one_poster {
+    box-sizing: border-box;
+    border: 2px #040c0e solid;
+    background-color: #525B56;
+}
+
+.main_img {
+    width: 100%;
+    height: auto;
+}
+
+.basic_info,
+.plot {
+    border: 2px solid #333;
+    padding-left: 2%;
+    padding-right: 2%;
+    background: -webkit-radial-gradient(right top, #d0cdd7 0%, #646464 80%, #152225 100%);
+}
+
+.plot {
+    box-sizing: border-box;
+    max-height: 200px;
+    min-height: 100px;
+    overflow: scroll;
+}
+
+
+/************ Cast Section Style ************/
+
+section#cast {
+    box-sizing: border-box;
+    border: 2px #040c0e solid;
+    background-color: #152225;
+    background: -webkit-radial-gradient(top, #646464 0%, #152225 75%);
+    padding: 5%;
+}
+
+div.cast_members_12,
+div.cast_members_34 {
+    display: flex;
+}
+
+div.cast_members_12 li,
+div.cast_members_34 li {
+    flex: 1;
+    list-style-type: none;
+}
+
+div.cast_members a {
+    text-decoration: none;
+}
+
+.cast_images {
+    width: 100%;
+    height: auto;
+}
+
+.cast_headline h2 {
+    font-size: 1.2em;
+    margin-top: 0;
+    color: #fff;
+}
+
+.cast_members ul {
+    margin: 0 auto;
+    padding: 1%;
+}
+
+ul li p {
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-bottom: 3%;
+    position: absolute;
+    color: #fff;
+    text-shadow: -1px -1px 5px #000;
+    text-shadow: 1px 1px 5px #000;
+    background: -webkit-linear-gradient(#eee, #e3b71f);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Encode Sans Condensed', sans-serif;
+}
+
+.cast_members ul li {
+    margin: 2%;
+    border: 3px solid #e3b71f;
+}
+
+
+/************ Reviews Section Style ************/
+
+section#reviews {
+    box-sizing: border-box;
+    border: 2px #040c0e solid;
+    background-color: #e3b71f;
+    background: -webkit-radial-gradient(top center, #fff 0%, #eac67a 40%, #e3b71f 80%, yellow 100%);
+    padding: 5%;
+}
+
+section#reviews h2 {
+    font-size: 1.3em;
+    margin-top: 0;
+    margin-bottom: 3%;
+    font-family: 'Quicksand', sans-serif;
+}
+
+section#reviews h3 {
+    font-size: 1.1em;
+    line-height: 1em;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-family: 'Quicksand', sans-serif;
+}
+
+section#reviews p {
+    line-height: 0.9em;
+    font-size: 0.9em;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+div#first_review,
+div#second_review {
+    border: 2px solid #333;
+    padding-left: 2%;
+    padding-right: 2%;
+    background: -webkit-radial-gradient(right top, #d0cdd7 0%, #646464 80%, #152225 100%);
+}
+
+.reviews {
+    border: 2px solid #333;
+    padding-left: 2%;
+    padding-right: 2%;
+    background: -webkit-radial-gradient(right top, #d0cdd7 0%, #646464 80%, #152225 100%);
+}
+
+.reviews_headline {
+    font-size: 1.2em;
+}
+
+
+/************ Footer Text Styling ************/
+
+footer p {
+    font-size: 0.8em;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-shadow: -6px -6px 6px #000;
+    text-shadow: 6px 6px 6px #000;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+footer div.footer_text {
+    padding: 2%;
+}
+
+
+/************ FontAwesome Icons Editing at the Footer ************/
+
+.fa-facebook-square,
+.fa-twitter-square,
+.fa-linkedin-square,
+.fa-github-square {
+    color: #fff;
+    text-shadow: -6px -6px 6px #000;
+    text-shadow: 6px 6px 6px #000;
+}
+
+footer div.contact_links {
+    padding-bottom: 3%;
+}
+
+
+/************ Media Queries ************/
+
+@media only screen and (max-width: 150px) {
+    .stars {
+        font-size: 0.5em;
+    }
+}
+
+@media only screen and (max-width: 200px) {
+    main {
+        background-size: 150%;
+    }
+}
+
+@media only screen and (max-width: 250px) {
+    ul li p {
+        width: 38%;
+    }
+    main {
+        background-size: 120%;
+    }
+}
+
+@media only screen and (max-width: 260px) {
+    h1 {
+        font-size: 1.25em;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+@media only screen and (max-width: 270px) {
+    .movie_year,
+    .movie_rating {
+        display: block;
+    }
+    div.basic_info p,
+    div.basic_info h2 {
+        text-align: center;
+    }
+    .stars {
+        font-size: 0.7em;
+    }
+}
+
+@media only screen and (min-width: 210px) {
+    h1 {
+        margin-top: -8%;
+    }
+}
+
+@media only screen and (min-width: 350px) {
+    h1 {
+        font-size: 1.1em;
+        margin-top: -5%;
+    }
+}
+
+@media only screen and (min-width: 450px) {
+    main {
+        padding: 10% 0 10% 0;
+        background-size: 720%;
+    }
+    div.main {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    h1 {
+        font-size: 1.2em;
+    }
+}
+
+@media only screen and (min-width: 550px) {
+    h1 {
+        margin-top: -3%;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    h1 {
+        font-size: 1.3em;
+    }
+    ul li p {
+        font-size: 0.6em;
+    }
+    main {
+        background-size: 700%;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    #header {
+        display: flex;
+    }
+    .header_left,
+    .header_right {
+        flex: 1;
+    }
+    .header_left {
+        text-align: left;
+        margin-left: 10%;
+    }
+    .header_right {
+        text-align: right;
+        margin-right: 10%;
+    }
+    #footer {
+        display: flex;
+    }
+    .footer_text,
+    .contact_links {
+        flex: 1;
+    }
+    .footer_text {
+        text-align: left;
+        margin-top: 1%;
+        margin-left: 10%;
+    }
+    .contact_links {
+        text-align: right;
+        margin-top: 2.3%;
+        margin-right: 10%;
+    }
+    section#rogue_one h2,
+    section#reviews h2,
+    section#cast h2 {
+        font-size: 1.4em;
+    }
+    section#rogue_one h3,
+    section#reviews h3 {
+        font-size: 1.2em;
+        line-height: 1.1em;
+    }
+    section#rogue_one p,
+    section#reviews p,
+    section#cast p {
+        line-height: 1em;
+        font-size: 1em;
+    }
+    h1 {
+        margin-top: 5%;
+        font-size: 1.4em;
+    }
+    .logo img {
+        height: 110%;
+    }
+    ul li p {
+        font-size: 0.7em;
+    }
+    main {
+        background-size: 625%;
+    }
+}
+
+@media only screen and (min-width: 750px) {
+    .logo img {
+        height: 115%;
+    }
+    ul li p {
+        font-size: 0.8em;
+    }
+    div.cast_members ul {
+        display: flex;
+    }
+    div.cast_members_12,
+    div.cast_members_34 {
+        flex: 1;
+    }
+    main {
+        background-size: 525%;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .logo img {
+        height: 120%;
+    }
+    ul li p {
+        font-size: 0.9em;
+    }
+    main {
+        background-size: 500%;
+    }
+}
+
+@media only screen and (min-width: 850px) {
+    .logo img {
+        height: 125%;
+    }
+    ul li p {
+        font-size: 1em;
+    }
+    main {
+        background-size: 475%;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .logo img {
+        height: 130%;
+    }
+    h1 {
+        font-size: 1.5em;
+    }
+    div.main section#rogue_one {
+        display: flex;
+    }
+    div.basic_info {
+        margin-top: 5%;
+    }
+    div.rogue_one_info,
+    div.rogue_one_poster {
+        flex: 1;
+    }
+    div.reviews {
+        display: flex;
+    }
+    div.first_review,
+    div.second_review {
+        flex: 1;
+        padding: 5%;
+    }
+    main {
+        background-size: 450%;
+    }
+    ul li p {
+        font-size: 0.7em;
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    .logo img {
+        height: 135%;
+    }
+    div.basic_info {
+        margin-top: 12%;
+    }
+    main {
+        background-size: 350%;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    header,
+    footer {
+        font-size: 1.3em;
+    }
+    section#rogue_one h2,
+    section#reviews h2,
+    section#cast h2 {
+        font-size: 1.5em;
+    }
+    .logo img {
+        height: 140%;
+        margin-top: -2%;
+    }
+    div.basic_info {
+        margin-top: 14%;
+    }
+    main {
+        background-size: 275%;
+    }
+}
+
+@media only screen and (min-width: 1250px) {
+    header,
+    footer {
+        font-size: 1.5em;
+    }
+    .logo img {
+        height: 150%;
+        margin-top: -3%;
+    }
+}
+
+@media only screen and (min-width: 1350px) {
+    .logo img {
+        height: 155%;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    section#rogue_one {
+        display: flex;
+    }
+    div.rogue_one_info {
+        flex: 2;
+    }
+    div.rogue_one_portrait {
+        flex: 1;
+    }
+    div.rogue_one_info div.basic_info {
+        margin-top: 3%;
+    }
+    section#rogue_one h2,
+    section#reviews h2,
+    section#cast h2 {
+        font-size: 1.7em;
+    }
+    section#rogue_one h3,
+    section#reviews h3 {
+        font-size: 1.3em;
+        line-height: 1.2em;
+    }
+    section#rogue_one p,
+    section#reviews p,
+    section#cast p {
+        line-height: 1.1em;
+        font-size: 1.1em;
+    }
+    header,
+    footer {
+        font-size: 1.6em;
+    }
+    .logo img {
+        height: 160%;
+    }
+}
+
+@media only screen and (min-width: 1459px) {
+    .logo img {
+        height: 165%;
+        margin-top: -4%;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    header,
+    footer {
+        font-size: 1.8em;
+    }
+    section#rogue-one h3,
+    section#reviews h3 {
+        font-size: 1.4em;
+        line-height: 1.3em;
+    }
+    section#rogue_one p,
+    section#reviews p,
+    section#cast p {
+        line-height: 1.2em;
+        font-size: 1.2em;
+    }
+    section#rogue_one h2,
+    section#reviews h2,
+    section#cast h2 {
+        font-size: 2em;
+    }
+}
+
+@media only screen and (min-width: 1824px) {
+    .logo img {
+        height: 180%;
+    }
+}
+
+@media only screen and (min-width: 2000px) {
+    .logo img {
+        height: 200%;
+    }
+}
+
+@media only screen and (min-width: 2066px) {
+    header,
+    footer {
+        font-size: 2em;
+    }
+    section#rogue_one h2,
+    section#reviews h2,
+    section#cast h2 {
+        font-size: 2.1em;
+    }
+    .logo img {
+        height: 220%;
+    }
+}

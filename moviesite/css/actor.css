@@ -1,0 +1,537 @@
+/************** Base style **************/
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #333;
+}
+
+header {
+    background-color: #152225;
+    background: -webkit-linear-gradient(bottom, #646464 0%, #152225 75%);
+    width: 100%;
+    border-bottom: 3px #B5CED4 solid;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 5%;
+}
+
+main {
+    margin: 0 auto;
+    padding: 20% 0% 20% 0%;
+    border-top: 3px solid #040c0e;
+    border-bottom: 3px solid #040c0e;
+    background: url("../images/njHhZgk.jpg");
+    background-repeat: repeat-y;
+    background-position: center top;
+    background-size: 110%;
+}
+
+footer {
+    background-color: #152225;
+    background: -webkit-linear-gradient(top, #646464 0%, #152225 75%);
+    width: 100%;
+    border-top: 3px #B5CED4 solid;
+    color: #fff;
+    text-align: center;
+}
+
+
+/************ JP Movie Database Header Style ************/
+
+div#header div.header_left {
+    height: 100px;
+}
+
+.logo img {
+    height: 100%;
+    width: auto;
+}
+
+h1 {
+    font-size: 1em;
+    text-shadow: -6px -6px 6px #000;
+    text-shadow: 6px 6px 6px #000;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: -7%;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/************ Felicity Section Style ************/
+
+.felicity_info {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.actor_headline h2 {
+    font-size: 1.4em;
+}
+
+.biography h2 {
+    font-size: 1.2em;
+}
+
+.actor_birth {
+    display: flex;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.actor_birth p {
+    flex: 1;
+}
+
+p.birthday {
+    text-align: right;
+}
+
+div.felicity_info {
+    box-sizing: border-box;
+    border: 2px #040c0e solid;
+    background-color: #e3b71f;
+    background: -webkit-radial-gradient(top center, #fff 0%, #eac67a 40%, #e3b71f 80%, yellow 100%);
+    padding: 5%;
+}
+
+div.felicity_portrait {
+    box-sizing: border-box;
+    border: 2px #040c0e solid;
+    background-color: #525B56;
+}
+
+.main_img {
+    width: 100%;
+    height: auto;
+}
+
+.basic_info,
+.biography {
+    border: 2px solid #333;
+    padding-left: 2%;
+    padding-right: 2%;
+    background: -webkit-radial-gradient(right top, #d0cdd7 0%, #646464 80%, #152225 100%);
+}
+
+.biography {
+    box-sizing: border-box;
+    max-height: 200px;
+    min-height: 100px;
+    overflow: scroll;
+}
+
+
+/************ FilmographySection Style ************/
+
+section#filmography {
+    box-sizing: border-box;
+    border: 2px #040c0e solid;
+    background-color: #152225;
+    background: -webkit-radial-gradient(top, #646464 0%, #152225 75%);
+    padding: 5%;
+}
+
+div.played_movies_12,
+div.played_movies_34 {
+    display: flex;
+}
+
+div.played_movies_12 li,
+div.played_movies_34 li {
+    flex: 1;
+    list-style-type: none;
+}
+
+div.played_movies a {
+    text-decoration: none;
+}
+
+.movies_images {
+    width: 100%;
+    height: auto;
+}
+
+.filmography_headline h2 {
+    font-size: 1.2em;
+    margin-top: 0;
+    color: #fff;
+}
+
+.played_movies ul {
+    margin: 0 auto;
+    padding: 1%;
+}
+
+ul li p {
+    box-sizing: border-box;
+    margin-top: 0;
+    position: absolute;
+    color: #fff;
+    font-size: 0.5em;
+    text-shadow: -3px -3px 5px #000;
+    text-shadow: 3px 3px 5px #000;
+    font-family: 'Encode Sans Condensed', sans-serif;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5% 2%;
+    width: 40%;
+}
+
+.played_movies ul li {
+    margin: 2%;
+    border: 3px solid #e3b71f;
+}
+
+
+/************ Footer Text Styling ************/
+
+footer p {
+    font-size: 0.8em;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-shadow: -6px -6px 6px #000;
+    text-shadow: 6px 6px 6px #000;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+footer div.footer_text {
+    padding: 2%;
+}
+
+
+/************ FontAwesome Icons Editing at the Footer ************/
+
+.fa-facebook-square,
+.fa-twitter-square,
+.fa-linkedin-square,
+.fa-github-square {
+    color: #fff;
+    text-shadow: -6px -6px 6px #000;
+    text-shadow: 6px 6px 6px #000;
+}
+
+footer div.contact_links {
+    padding-bottom: 3%;
+}
+
+
+/************ Media Queries ************/
+
+@media only screen and (max-width: 250px) {
+    ul li p {
+        width: 38%;
+    }
+    main {
+        background-size: 120%;
+    }
+}
+
+@media only screen and (max-width: 270px) {
+    .actor_birth {
+        display: block;
+    }
+    div.felicity_info div.basic_info {
+        text-align: center;
+    }
+    p.birthday {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 260px) {
+    h1 {
+        font-size: 1.25em;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+@media only screen and (min-width: 210px) {
+    h1 {
+        margin-top: -8%;
+    }
+}
+
+@media only screen and (min-width: 350px) {
+    h1 {
+        font-size: 1.1em;
+        margin-top: -5%;
+    }
+}
+
+@media only screen and (min-width: 450px) {
+    main {
+        padding: 10% 0 10% 0;
+        background-size: 600%;
+    }
+    h1 {
+        font-size: 1.2em;
+    }
+    div.main {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    ul li p {
+        width: 33%;
+    }
+}
+
+@media only screen and (min-width: 550px) {
+    h1 {
+        margin-top: -3%;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    h1 {
+        font-size: 1.3em;
+    }
+    ul li p {
+        font-size: 0.6em;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    #header {
+        display: flex;
+    }
+    .header_left,
+    .header_right {
+        flex: 1;
+    }
+    .header_left {
+        text-align: left;
+        margin-left: 10%;
+    }
+    .header_right {
+        text-align: right;
+        margin-right: 10%;
+    }
+    #footer {
+        display: flex;
+    }
+    .footer_text,
+    .contact_links {
+        flex: 1;
+    }
+    .footer_text {
+        text-align: left;
+        margin-top: 1%;
+        margin-left: 10%;
+    }
+    .contact_links {
+        text-align: right;
+        margin-top: 2.3%;
+        margin-right: 10%;
+    }
+    section#felicity h2 {
+        font-size: 1.4em;
+    }
+    section#felicity h3 {
+        font-size: 1.2em;
+        line-height: 1.1em;
+    }
+    section#felicity p {
+        line-height: 1em;
+        font-size: 1em;
+    }
+    h1 {
+        margin-top: 5%;
+        font-size: 1.4em;
+    }
+    .logo img {
+        height: 110%;
+    }
+    ul li p {
+        font-size: 0.7em;
+    }
+}
+
+@media only screen and (min-width: 750px) {
+    .logo img {
+        height: 115%;
+    }
+    ul li p {
+        font-size: 0.8em;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .logo img {
+        height: 120%;
+    }
+    ul li p {
+        font-size: 0.9em;
+    }
+}
+
+@media only screen and (min-width: 850px) {
+    .logo img {
+        height: 125%;
+    }
+    ul li p {
+        font-size: 1em;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .logo img {
+        height: 130%;
+    }
+    h1 {
+        font-size: 1.5em;
+    }
+    section#felicity {
+        display: flex;
+    }
+    div.basic_info {
+        margin-top: 10%;
+    }
+    div.felicity_info,
+    div.felicity_portrait {
+        flex: 1;
+    }
+    div.played_movies ul {
+        display: flex;
+    }
+    div.played_movies_12,
+    div.played_movies_34 {
+        flex: 1;
+    }
+    main {
+        background-size: 180%;
+    }
+    ul li p {
+        font-size: 0.7em;
+        width: 16%;
+        padding: 2%;
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    .logo img {
+        height: 135%;
+    }
+    div.basic_info {
+        margin-top: 12%;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    header,
+    footer {
+        font-size: 1.3em;
+    }
+    section#felicity h2 {
+        font-size: 1.5em;
+    }
+    .logo img {
+        height: 140%;
+        margin-top: -2%;
+    }
+    div.basic_info {
+        margin-top: 14%;
+    }
+}
+
+@media only screen and (min-width: 1250px) {
+    header,
+    footer {
+        font-size: 1.5em;
+    }
+    .logo img {
+        height: 150%;
+        margin-top: -3%;
+    }
+}
+
+@media only screen and (min-width: 1350px) {
+    .logo img {
+        height: 155%;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    section#felicity {
+        display: flex;
+    }
+    div.felicity_info {
+        flex: 2;
+    }
+    div.felicity_portrait {
+        flex: 1;
+    }
+    div.felicity_info div.basic_info {
+        margin-top: 3%;
+    }
+    section#felicity h2 {
+        font-size: 1.7em;
+    }
+    section#felicity h3 {
+        font-size: 1.3em;
+        line-height: 1.2em;
+    }
+    section#felicity p {
+        line-height: 1.1em;
+        font-size: 1.1em;
+    }
+    header,
+    footer {
+        font-size: 1.6em;
+    }
+    .logo img {
+        height: 160%;
+    }
+}
+
+@media only screen and (min-width: 1459px) {
+    .logo img {
+        height: 165%;
+        margin-top: -4%;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    header,
+    footer {
+        font-size: 1.8em;
+    }
+    section#felicity h3 {
+        font-size: 1.4em;
+        line-height: 1.3em;
+    }
+    section#felicity p {
+        line-height: 1.2em;
+        font-size: 1.2em;
+    }
+    section#felicity h2 {
+        font-size: 2em;
+    }
+}
+
+@media only screen and (min-width: 1824px) {
+    .logo img {
+        height: 180%;
+    }
+}
+
+@media only screen and (min-width: 2000px) {
+    .logo img {
+        height: 200%;
+    }
+}
+
+@media only screen and (min-width: 2066px) {
+    header,
+    footer {
+        font-size: 2em;
+    }
+    section#felicity h2 {
+        font-size: 2.1em;
+    }
+    .logo img {
+        height: 220%;
+    }
+}

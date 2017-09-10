@@ -1,0 +1,741 @@
+/************** Base style **************/
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #333;
+    background: url("../images/njHhZgk.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+header {
+    background-color: #152225;
+    background: -webkit-linear-gradient(bottom, #646464 0%, #152225 75%);
+    width: 100%;
+    border-bottom: 3px #B5CED4 solid;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 5%;
+}
+
+main {
+    margin: 0 auto;
+    padding: 20% 0% 20% 0%;
+    border-top: 3px solid #040c0e;
+    border-bottom: 3px solid #040c0e;
+}
+
+footer {
+    background-color: #152225;
+    background: -webkit-linear-gradient(top, #646464 0%, #152225 75%);
+    width: 100%;
+    border-top: 3px #B5CED4 solid;
+    color: #fff;
+    text-align: center;
+}
+
+
+/************ JP Movie Database Header Style ************/
+
+
+div#header div.header_left{
+    height: 100px;
+}
+
+.logo img {
+    height:100%;
+    width: auto;
+}
+
+h1 {
+    color: #fff;
+    font-size: 1em;
+    text-shadow: -6px -6px 6px #000;
+    text-shadow: 6px 6px 6px #000;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: -7%;
+}
+
+header a {
+    text-decoration: none;
+}
+
+
+/************ Recent News Section Style ************/
+
+section#news {
+    box-sizing: border-box;
+    border: 2px #040c0e solid;
+    background-color: #e3b71f;
+    background: -webkit-radial-gradient(top center, #fff 0%, #eac67a 40%, #e3b71f 80%, yellow 100%);
+    padding: 5%;
+}
+
+section#news h2 {
+    font-size: 1.3em;
+    margin-top: 0;
+    margin-bottom: 3%;
+    font-family: 'Quicksand', sans-serif;
+}
+
+section#news h3 {
+    font-size: 1.1em;
+    line-height: 1em;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-family: 'Quicksand', sans-serif;
+}
+
+section#news p {
+    line-height: 0.9em;
+    font-size: 0.9em;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+div#movie,
+div#actor {
+    border: 2px solid #333;
+    padding-left: 2%;
+    padding-right: 2%;
+    background: -webkit-radial-gradient(right top, #d0cdd7 0%, #646464 80%, #152225 100%);
+}
+
+
+/************ Hottest Section Style ************/
+
+div.hottest_movie_div,
+div.hottest_actor_div {
+    box-sizing: border-box;
+    border: 2px #040c0e solid;
+    background-color: #525B56;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 125px;
+    text-align: right;
+}
+
+div.hottest_movie_div {
+    background-image: url("../images/tZjVVIYXACV4IIIhXeIM59ytqwS.jpg");
+}
+
+div.hottest_actor_div {
+    background-image: url("../images/PYEN7OxO.jpg");
+}
+
+
+/************ Hottest Section Text Style ************/
+
+.hottest_movie_div h4,
+.hottest_actor_div h4 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.hottest_movie_div p,
+.hottest_actor_div p {
+    margin-top: 0;
+}
+
+.hottest_actor_div h4,
+.hottest_movie_div h4,
+.hottest_actor_div p,
+.hottest_movie_div p {
+    color: #fff;
+    text-shadow: -1px -1px 50px #000;
+    text-shadow: 1px 1px 50px #000;
+    background: -webkit-linear-gradient(#eee, #e3b71f);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Encode Sans Condensed', sans-serif;
+}
+
+.hottest_movie,
+.hottest_actor {
+    color: #fff;
+}
+
+.hottest_movie_div,
+.hottest_actor_div {
+    overflow: hidden;
+}
+
+.transparent_background {
+    margin-top: 30%;
+    padding: 1%;
+    background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.35) 65%, rgba(0, 0, 0, 0.15) 90%, rgba(0, 0, 0, 0.01) 100%);
+}
+
+/************ Footer Text Styling ************/
+
+footer p {
+    font-size: 0.8em;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-shadow: -6px -6px 6px #000;
+    text-shadow: 6px 6px 6px #000;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+footer div.footer_text {
+    padding: 2%;
+}
+
+
+/************ FontAwesome Icons Editing at the Footer ************/
+
+.fa-facebook-square,
+.fa-twitter-square,
+.fa-linkedin-square,
+.fa-github-square {
+    color: #fff;
+    text-shadow: -6px -6px 6px #000;
+    text-shadow: 6px 6px 6px #000;
+}
+
+footer div.contact_links {
+    padding-bottom: 3%;
+}
+
+
+/************ Media Querries **************/
+
+@media only screen and (max-width: 215px) {
+    div.hottest_movie_div,
+    div.hottest_actor_div {
+        height: 50px;
+    }
+    body {
+        background-size: 1000%;
+    }
+}
+
+@media only screen and (max-width: 260px) {
+    div.hottest_movie_div,
+    div.hottest_actor_div {
+        height: 100px;
+    }
+    h1 {
+        font-size: 1.25em;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+@media only screen and (min-width: 210px) {
+    .transparent_background {
+        margin-top: 25%;
+    }
+
+    h1 {
+        margin-top: -8%;
+    }
+}
+
+@media only screen and (min-width: 235px) {
+    .transparent_background {
+        margin-top: 20%;
+    }
+}
+
+@media only screen and (min-width: 260px) {
+    .transparent_background {
+        margin-top: 27%;
+    }
+}
+
+@media only screen and (min-width: 300px) {
+    .transparent_background {
+        margin-top: 24%;
+    }
+}
+
+@media only screen and (min-width: 350px) {
+    div.hottest_movie_div,
+    div.hottest_actor_div {
+        height: 150px;
+    }
+    .transparent_background {
+        margin-top: 25%;
+    }
+
+    h1 {
+        font-size: 1.1em;
+        margin-top: -5%;
+    }
+}
+
+@media only screen and (min-width: 400px) {
+    div.hottest_movie_div,
+    div.hottest_actor_div {
+        height: 175px;
+    }
+    .transparent_background {
+        margin-top: 30%;
+    }
+}
+
+@media only screen and (min-width: 450px) {
+    section#news {
+        padding-top: 7.5%;
+        padding-bottom: 7.5%;
+    }
+    .hottest_actor_div h4,
+    .hottest_movie_div h4,
+    .hottest_actor_div p,
+    .hottest_movie_div p,
+    div.transparent_background span {
+        font-size: 1.1em;
+    }
+    div.main {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    main {
+        padding: 10% 0 10% 0;
+    }
+    h1 {
+        font-size: 1.2em;
+    }
+}
+
+@media only screen and (min-width: 500px) {
+    .transparent_background {
+        margin-top: 25%;
+    }
+}
+
+@media only screen and (min-width: 550px) {
+    h1 {
+        margin-top: -3%;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    section#news {
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+    div.hottest_movie_div,
+    div.hottest_actor_div {
+        height: 200px;
+    }
+    .hottest_actor_div h4,
+    .hottest_movie_div h4,
+    .hottest_actor_div p,
+    .hottest_movie_div p,
+    div.transparent_background span {
+        font-size: 1.2em;
+    }
+    .transparent_background {
+        margin-top: 28%;
+    }
+
+    h1 {
+        font-size: 1.3em;
+    }
+}
+
+@media only screen and (min-width: 650px) {
+    .transparent_background {
+        margin-top: 25%;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    .hottest_actor_div h4,
+    .hottest_movie_div h4,
+    .hottest_actor_div p,
+    .hottest_movie_div p,
+    div.transparent_background span {
+        font-size: 1.15em;
+    }
+    div.hottest_movie_div,
+    div.hottest_actor_div {
+        height: 230px;
+    }
+    #header {
+        display: flex;
+    }
+    .header_left,
+    .header_right {
+        flex: 1;
+    }
+    .header_left {
+        text-align: left;
+        margin-left: 10%;
+    }
+    .header_right {
+        text-align: right;
+        margin-right: 10%;
+    }
+    #footer {
+        display: flex;
+    }
+    .footer_text,
+    .contact_links {
+        flex: 1;
+    }
+    .footer_text {
+        text-align: left;
+        margin-top: 1%;
+        margin-left: 10%;
+    }
+    .contact_links {
+        text-align: right;
+        margin-top: 2.3%;
+        margin-right: 10%;
+    }
+    section#news h2 {
+        font-size: 1.4em;
+    }
+    section#news h3 {
+        font-size: 1.2em;
+        line-height: 1.1em;
+    }
+    section#news p {
+        line-height: 1em;
+        font-size: 1em;
+    }
+    .transparent_background {
+        margin-top: 28%;
+    }
+    body {
+        background-size: 500%;
+    }
+
+    h1 {
+        margin-top: 5%;
+        font-size: 1.4em;
+    }
+
+    .logo img {
+        height: 110%;
+    }
+}
+
+@media only screen and (min-width: 750px) {
+    .transparent_background {
+        margin-top: 26%;
+    }
+
+    .logo img {
+        height: 115%;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    div.hottest_movie_div,
+    div.hottest_actor_div {
+        height: 260px;
+    }
+    .hottest_actor_div h4,
+    .hottest_movie_div h4,
+    .hottest_actor_div p,
+    .hottest_movie_div p,
+    div.transparent_background span {
+        font-size: 1.2em;
+    }
+    .transparent_background {
+        margin-top: 30%;
+    }
+    body {
+        background-size: 400%;
+    }
+    .logo img {
+        height: 120%;
+    }
+}
+
+@media only screen and (min-width: 850px) {
+    .transparent_background {
+        margin-top: 27%;
+    }
+    body {
+        background-size: 300%;
+    }
+    .logo img {
+        height: 125%;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    div.hottest_movie_div,
+    div.hottest_actor_div {
+        height: 290px;
+    }
+    .hottest_actor_div h4,
+    .hottest_movie_div h4,
+    .hottest_actor_div p,
+    .hottest_movie_div p,
+    div.transparent_background span {
+        font-size: 1.25em;
+    }
+    .transparent_background {
+        margin-top: 30%;
+    }
+    body {
+        background-size: 250%;
+    }
+    .logo img {
+        height: 130%;
+    }
+    h1 {
+        font-size: 1.5em;
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    .transparent_background {
+        margin-top: 27%;
+    }
+    body {
+        background-size: 230%;
+    }
+    .logo img {
+        height: 135%;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    section#news {
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    #hottest {
+        display: flex;
+    }
+    div.hottest_movie_div,
+    div.hottest_actor_div {
+        flex: 1;
+        height: 200px;
+    }
+    .hottest_actor_div h4,
+    .hottest_movie_div h4,
+    .hottest_actor_div p,
+    .hottest_movie_div p,
+    div.transparent_background span {
+        font-size: 1.35em;
+    }
+    .recent_news_text {
+        display: flex;
+    }
+    #movie,
+    #actor {
+        flex: 1;
+    }
+    #actor {
+        margin-left: 5%;
+    }
+    header,
+    footer {
+        font-size: 1.3em;
+    }
+    section#news h2 {
+        font-size: 1.5em;
+    }
+    .transparent_background {
+        margin-top: 29%;
+    }
+    body {
+        background-size: 140%;
+    }
+    .logo img {
+        height: 140%;
+        margin-top: -2%;
+    }
+}
+
+@media only screen and (min-width: 1250px) {
+    div.hottest_movie_div,
+    div.hottest_actor_div {
+        height: 230px;
+    }
+    header,
+    footer {
+        font-size: 1.5em;
+    }
+    .transparent_background {
+        margin-top: 32%;
+    }
+    body {
+        background-size: 110%;
+    }
+    .logo img {
+        height: 150%;
+        margin-top: -3%;
+    }
+}
+
+@media only screen and (min-width: 1350px) {
+    .transparent_background {
+        margin-top: 30%;
+    }
+    .logo img {
+        height: 155%;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    section#news {
+        height: 460px;
+    }
+    div#movie p,
+    div#actor p {
+        max-height: 150px;
+        overflow: scroll;
+    }
+    #hottest {
+        display: block;
+    }
+    div.main {
+        display: flex;
+    }
+    section#news {
+        flex: 1;
+    }
+    section#hottest {
+        flex: 1;
+    }
+    .hottest_actor_div h4,
+    .hottest_movie_div h4,
+    .hottest_actor_div p,
+    .hottest_movie_div p,
+    div.transparent_background span {
+        font-size: 1.5em;
+    }
+    section#news h2 {
+        font-size: 1.7em;
+    }
+    section#news h3 {
+        font-size: 1.3em;
+        line-height: 1.2em;
+    }
+    section#news p {
+        line-height: 1.1em;
+        font-size: 1.1em;
+    }
+    header,
+    footer {
+        font-size: 1.6em;
+    }
+    .transparent_background {
+        margin-top: 30%;
+    }
+    body {
+        background-size: 100%;
+    }
+    .logo img {
+        height: 160%;
+    }
+}
+
+@media only screen and (min-width: 1459px) {
+    div#movie p {
+        margin-top: 2.5em;
+    }
+    .logo img {
+        height: 165%;
+        margin-top: -4%;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    header,
+    footer {
+        font-size: 1.8em;
+    }
+    div#movie p {
+        margin-top: 2.5em;
+    }
+    div#actor p {
+        margin-top: 1em;
+    }
+    div#movie p,
+    div#actor p {
+        max-height: 250px;
+        overflow: scroll;
+    }
+    section#news {
+        height: 600px;
+    }
+    div.hottest_movie_div,
+    div.hottest_actor_div {
+        height: 300px;
+    }
+    section#news h3 {
+        font-size: 1.4em;
+        line-height: 1.3em;
+    }
+    section#news p {
+        line-height: 1.2em;
+        font-size: 1.2em;
+    }
+    section#news h2 {
+        font-size: 2em;
+    }
+    .hottest_actor_div h4,
+    .hottest_movie_div h4,
+    .hottest_actor_div p,
+    .hottest_movie_div p,
+    div.transparent_background span {
+        font-size: 1.7em;
+    }
+    .transparent_background {
+        margin-top: 35%;
+    }
+}
+
+@media only screen and (min-width: 1650px) {
+    .transparent_background {
+        margin-top: 34%;
+    }
+}
+
+@media only screen and (min-width: 1824px) {
+    div#actor p {
+        margin-top: 2.5em;
+    }
+    .transparent_background {
+        margin-top: 32%;
+    }
+    .logo img {
+        height: 180%;
+    }
+}
+
+@media only screen and (min-width: 2000px) {
+    .transparent_background {
+        margin-top: 30%;
+    }
+    .logo img {
+        height: 200%;
+    }
+}
+
+@media only screen and (min-width: 2066px) {
+    header,
+    footer {
+        font-size: 2em;
+    }
+    div#actor p {
+        margin-top: 2.5em;
+    }
+    section#news h2 {
+        font-size: 2.1em;
+    }
+    .hottest_actor_div h4,
+    .hottest_movie_div h4,
+    .hottest_actor_div p,
+    .hottest_movie_div p,
+    div.transparent_background span {
+        font-size: 1.9em;
+    }
+    .transparent_background {
+        margin-top: 27%;
+    }
+    .logo img {
+        height: 220%;
+    }
+}
